@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor">
+    <!--<LinearLayout-->
+        <!--android:clipToPadding="false"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<android.support.v7.widget.cardview-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_margin="10dp">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:gravity="center">-->
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundpurple"-->
+                    <!--android:src="@drawable/ic_attach_money_black_24dp"-->
+                    <!--android:padding="10dp">-->
+
+                <!--</ImageView>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Gallery">-->
+                <!--</TextView>-->
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/lightgray"-->
+                    <!--android:layout_margin="10dp">-->
+                <!--</View>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:text="Check your book gallery"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textColor="@android:color/darker_gray">-->
+                    <!--</TextView>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.cardview>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:clipToPadding="false"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<android.support.v7.widget.cardview-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_margin="10dp">-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:gravity="center">-->
+                <!--<ImageView-->
+                    <!--android:layout_width="64dp"-->
+                    <!--android:layout_height="64dp"-->
+                    <!--android:background="@drawable/circlebackgroundpink"-->
+                    <!--android:src="@drawable/ic_library_books_black_24dp"-->
+                    <!--android:padding="10dp">-->
+
+                <!--</ImageView>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Gallery">-->
+                <!--</TextView>-->
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/lightgray"-->
+                    <!--android:layout_margin="10dp">-->
+                <!--</View>-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:text="Check your book gallery"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textColor="@android:color/darker_gray">-->
+                <!--</TextView>-->
+            <!--</LinearLayout>-->
+        <!--</android.support.v7.widget.cardview>-->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="99dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="See gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.845" />
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="182dp"
+        android:layout_height="105dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+</LinearLayout>
