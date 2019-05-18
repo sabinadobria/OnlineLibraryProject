@@ -36,7 +36,6 @@
             ></service>
 
         <activity android:name=".NotificationActivity" />
-        <activity android:name=".PlayMusicActivity" />
 
         <receiver android:name=".BookWidget">
             <intent-filter>
